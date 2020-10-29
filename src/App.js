@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import "./App.css";
 //import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap';
 //import { Button } from "@material-ui/core";
-import MiComponente from './MiComponents';
+import MiComponente from './MiComponente';
 import MiValidador from './MiValidador';
 
 function App() {
