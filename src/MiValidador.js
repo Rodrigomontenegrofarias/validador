@@ -22,7 +22,7 @@ export default function MiValidador(params) {
     }
 
 
-    if (clave == "uvalpo") return <p > Maravilloso < /p>
+    if (clave === "uvalpo") return <p > Maravilloso < /p>
     return ( < div >
         <
         input type = "text"
