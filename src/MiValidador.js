@@ -21,21 +21,15 @@ export default function MiValidador(params) {
         setClave(e.target.value)
     }
 
-
-    if (clave === "uvalpo") return <p > Maravilloso < /p>
-    return ( < div >
-        <
-        input type = "text"
-        value = { rutIngresado }
-        onChange = { change }
-        / > { validate(rutIngresado) &&  <
-        input type = "password"
-        value = { clave }
-        // eslint-disable-next-line no-undef
-        onChange = { onChangePassword }
-
-        / >
-
-    } < /
-    div > )
+   
+    if (clave === "uvalpo") return <p> Ingresando a Nuestro <br/>
+    su rut es: {rutIngresado} <br/>
+    su contraseña es: {clave} <br/>
+    </p> 
+    return ( <div> 
+        <input type = "text" value = { rutIngresado } onChange = { change }/>
+        { validate(rutIngresado) &&  
+        <input type = "password" value = { clave } onChange = { onChangePassword }/>
+        } 
+    </div> )
 }

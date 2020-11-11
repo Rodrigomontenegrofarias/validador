@@ -7,24 +7,19 @@ import MiComponente from './MiComponente';
 import MiValidador from './MiValidador';
 
 function App() {
-    return ( <
-        div className = "App" >
+    return ( 
+        <div className = "App" >
 
-        <
-        header className = "App-header" >
-
-        <
-        p >
-
-
-        Contraseña....de uvalpo
-
-        <
-        /p > <
-        MiValidador valor = "193385745" / >
-        <
-        /header> < /
-        div >
+            <header className = "App-header" >
+                
+                <p> clave de usuario : uvalpo
+                    <br/>
+                <MiValidador valor = "193385745"/>
+                </p>
+                
+                <MiComponente/>
+            </header> 
+        </div >
     );
 }
 
