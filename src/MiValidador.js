@@ -22,7 +22,7 @@ export default function MiValidador(params) {
     }
 
    
-    if (clave === "uvalpo") return <p> Ingresando a Nuestro <br/>
+    if (clave === "uvalpo") return <p> Ingresando a Nuestro Perfil <br/>
     su rut es: {rutIngresado} <br/>
     su contraseña es: {clave} <br/>
     </p> 
